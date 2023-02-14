@@ -1,1 +1,3 @@
 The given code is a Python function countOdds which takes two integer inputs low and high as its parameters. The function counts the number of odd integers between low and high (both inclusive) and returns the count.
+For more detail, kindly read the blog
+[LeetCode](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/solutions/3184427/count-odd-numbers-in-an-interval-range/)
