@@ -1,0 +1,1 @@
+The given code is a Python function countOdds which takes two integer inputs low and high as its parameters. The function counts the number of odd integers between low and high (both inclusive) and returns the count.
