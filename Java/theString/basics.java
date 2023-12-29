@@ -6,8 +6,8 @@ public class basics {
 
         StringBuilder str1= new StringBuilder("");
         for(char ch ='a'; ch<='z'; ch++){
-            //str+=ch;
-            str1.append(ch);
+            str+=ch;
+            //str1.append(ch);
         }
         System.out.println(str1);
     }
