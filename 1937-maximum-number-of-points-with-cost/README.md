@@ -1,49 +1,117 @@
-<h2><a href="https://leetcode.com/problems/maximum-number-of-points-with-cost/">1937. Maximum Number of Points with Cost</a></h2><h3>Medium</h3><hr><div><p>You are given an <code>m x n</code> integer matrix <code>points</code> (<strong>0-indexed</strong>). Starting with <code>0</code> points, you want to <strong>maximize</strong> the number of points you can get from the matrix.</p>
 
-<p>To gain points, you must pick one cell in <strong>each row</strong>. Picking the cell at coordinates <code>(r, c)</code> will <strong>add</strong> <code>points[r][c]</code> to your score.</p>
+# Maximum Number of Points with Cost
 
-<p>However, you will lose points if you pick a cell too far from the cell that you picked in the previous row. For every two adjacent rows <code>r</code> and <code>r + 1</code> (where <code>0 &lt;= r &lt; m - 1</code>), picking cells at coordinates <code>(r, c<sub>1</sub>)</code> and <code>(r + 1, c<sub>2</sub>)</code> will <strong>subtract</strong> <code>abs(c<sub>1</sub> - c<sub>2</sub>)</code> from your score.</p>
+## Problem Description
 
-<p>Return <em>the <strong>maximum</strong> number of points you can achieve</em>.</p>
+You are given an `m x n` integer matrix `points`. Starting with `0` points, you want to maximize the number of points you can get from the matrix.
 
-<p><code>abs(x)</code> is defined as:</p>
+- You must pick one cell in each row.
+- Picking the cell at coordinates `(r, c)` will add `points[r][c]` to your score.
+- However, moving to a cell in the next row that is far from the previous cell will incur a penalty. The penalty is defined as the absolute difference between the column indices of the two cells.
 
-<ul>
-	<li><code>x</code> for <code>x &gt;= 0</code>.</li>
-	<li><code>-x</code> for <code>x &lt; 0</code>.</li>
-</ul>
+The goal is to find the maximum number of points you can achieve.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong><strong> </strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-40-26-diagram-drawio-diagrams-net.png" style="width: 300px; height: 300px;">
-<pre><strong>Input:</strong> points = [[1,2,3],[1,5,1],[3,1,1]]
-<strong>Output:</strong> 9
-<strong>Explanation:</strong>
-The blue cells denote the optimal cells to pick, which have coordinates (0, 2), (1, 1), and (2, 0).
-You add 3 + 5 + 3 = 11 to your score.
-However, you must subtract abs(2 - 1) + abs(1 - 0) = 2 from your score.
-Your final score is 11 - 2 = 9.
-</pre>
+### Example
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-42-14-diagram-drawio-diagrams-net.png" style="width: 200px; height: 299px;">
-<pre><strong>Input:</strong> points = [[1,5],[2,3],[4,2]]
-<strong>Output:</strong> 11
-<strong>Explanation:</strong>
-The blue cells denote the optimal cells to pick, which have coordinates (0, 1), (1, 1), and (2, 0).
-You add 5 + 3 + 4 = 12 to your score.
-However, you must subtract abs(1 - 1) + abs(1 - 0) = 1 from your score.
-Your final score is 12 - 1 = 11.
-</pre>
+Given a matrix:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+```
+points = [
+    [1, 2, 3],
+    [1, 5, 1],
+    [3, 1, 1]
+]
+```
 
-<ul>
-	<li><code>m == points.length</code></li>
-	<li><code>n == points[r].length</code></li>
-	<li><code>1 &lt;= m, n &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= m * n &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= points[r][c] &lt;= 10<sup>5</sup></code></li>
-</ul>
-</div>
+The maximum points you can achieve is `9` by picking cells at `(0, 2)`, `(1, 1)`, and `(2, 0)`.
+
+## Solution Approach
+
+### Dynamic Programming (DP)
+
+We can solve this problem using a dynamic programming approach. Here's how:
+
+### Step 1: Define the DP Table
+
+Let `dp[r][c]` represent the maximum points that can be obtained if you end up in cell `(r, c)` in the `r`-th row.
+
+### Step 2: Base Case
+
+For the first row, the DP values are simply the values in the first row of the matrix because there is no penalty for the first choice:
+```python
+dp[0][c] = points[0][c]
+```
+
+### Step 3: Recurrence Relation
+
+For each subsequent row `r`, calculate `dp[r][c]` as follows:
+```python
+dp[r][c] = max(dp[r-1][k] - abs(k - c)) + points[r][c] for all k in range(n)
+```
+However, directly computing this for each cell would be too slow, so we optimize it using left-to-right and right-to-left sweeps.
+
+### Step 4: Optimization with Two Sweeps
+
+- **Left to Right Sweep**: This considers the best possible values when moving from the leftmost column towards the right.
+- **Right to Left Sweep**: This considers the best possible values when moving from the rightmost column towards the left.
+
+This reduces the time complexity of our solution to `O(m * n)`.
+
+### Step 5: Final Result
+
+After processing all rows, the maximum value in `dp` will give you the maximum points achievable.
+
+### Pseudocode
+
+```python
+def maxPoints(points):
+    m, n = len(points), len(points[0])
+    
+    # DP array initialization
+    dp = points[0]
+    
+    for r in range(1, m):
+        # Left to right sweep
+        left_max = [0] * n
+        left_max[0] = dp[0]
+        for c in range(1, n):
+            left_max[c] = max(left_max[c-1] - 1, dp[c])
+        
+        # Right to left sweep
+        right_max = [0] * n
+        right_max[-1] = dp[-1]
+        for c in range(n-2, -1, -1):
+            right_max[c] = max(right_max[c+1] - 1, dp[c])
+        
+        # Update dp for the current row
+        for c in range(n):
+            dp[c] = points[r][c] + max(left_max[c], right_max[c])
+    
+    return max(dp)
+```
+
+### Complexity Analysis
+
+- **Time Complexity**: `O(m * n)` where `m` is the number of rows and `n` is the number of columns.
+- **Space Complexity**: `O(n)` since we only keep the current and previous row's DP values.
+
+## How to Use
+
+1. Implement the provided Python function in your codebase.
+2. Call the function `maxPoints(points)` with your matrix `points`.
+3. The function will return the maximum points you can achieve.
+
+## Example
+
+```python
+points = [
+    [1, 2, 3],
+    [1, 5, 1],
+    [3, 1, 1]
+]
+
+print(maxPoints(points))  # Output: 9
+```
+
+
+This dynamic programming approach efficiently calculates the maximum points achievable in the matrix by considering both the points at each cell and the penalties incurred when moving between cells in adjacent rows.
