@@ -9,4 +9,12 @@
 |  |
 | ------- |
 | [2509-minimize-xor](https://github.com/MahaZainab/LeetCode/tree/master/2509-minimize-xor) |
+## Array
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
