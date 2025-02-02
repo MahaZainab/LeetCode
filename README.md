@@ -76,4 +76,12 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
