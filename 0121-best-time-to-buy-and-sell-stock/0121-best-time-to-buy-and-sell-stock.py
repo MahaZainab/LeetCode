@@ -8,6 +8,7 @@ class Solution:
         #         profit= prices[j]-prices[i]
         #         max_profit = max(max_profit, profit)
         # return max_profit
+        # The following approach will solve the question in O(n) time and space would be constant again
         left=0
         right=1
         max_profit=0
