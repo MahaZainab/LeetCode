@@ -1,13 +1,24 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        left, right=0,1
-        MaxProfit=0
-        while right<len(prices):
-            if prices[right]>prices[left]:
+        # The brute force approach where the time complexity will be O(n^2) and space complexity is constant
+        # n=len(prices)
+        # max_profit=0
+        # for i in range(n):
+        #     for j in range(i+1, n):
+        #         profit= prices[j]-prices[i]
+        #         max_profit = max(max_profit, profit)
+        # return max_profit
+        left=0
+        right=1
+        max_profit=0
+        for i in range(len(prices)-1):
+            if prices[left]<prices[right]:
                 profit=prices[right]-prices[left]
-                MaxProfit=max(profit, MaxProfit)
-                
+                max_profit=max(max_profit, profit)
             else:
                 left=right
             right+=1
-        return MaxProfit
+        return max_profit
+
+
+        
