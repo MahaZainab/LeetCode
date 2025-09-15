@@ -42,6 +42,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MahaZainab/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/MahaZainab/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/MahaZainab/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MahaZainab/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 ## Sliding Window
 |  |
 | ------- |
@@ -71,6 +73,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/MahaZainab/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/MahaZainab/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
+| [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 ## Queue
 |  |
