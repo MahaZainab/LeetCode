@@ -19,6 +19,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -111,10 +112,12 @@
 | ------- |
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MahaZainab/LeetCode/tree/master/0002-add-two-numbers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Sorting
 |  |
 | ------- |
@@ -123,4 +126,8 @@
 |  |
 | ------- |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
