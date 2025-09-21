@@ -77,6 +77,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/MahaZainab/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/MahaZainab/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
+| [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
@@ -104,6 +105,7 @@
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/MahaZainab/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MahaZainab/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -115,10 +117,12 @@
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/MahaZainab/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Stack
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
+| [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Math
