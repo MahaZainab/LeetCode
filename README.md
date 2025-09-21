@@ -20,6 +20,7 @@
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MahaZainab/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -38,6 +39,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/MahaZainab/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MahaZainab/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## String
 |  |
 | ------- |
@@ -104,6 +106,7 @@
 | [0206-reverse-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MahaZainab/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
 | ------- |
