@@ -50,6 +50,7 @@
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [1666-make-the-string-great](https://github.com/MahaZainab/LeetCode/tree/master/1666-make-the-string-great) |
 ## Design
 |  |
 | ------- |
@@ -125,6 +126,7 @@
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
+| [1666-make-the-string-great](https://github.com/MahaZainab/LeetCode/tree/master/1666-make-the-string-great) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Math
 |  |
