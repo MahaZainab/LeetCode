@@ -21,6 +21,7 @@
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0682-baseball-game](https://github.com/MahaZainab/LeetCode/tree/master/0682-baseball-game) |
+| [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MahaZainab/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Binary Search
@@ -29,6 +30,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/MahaZainab/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Hash Table
 |  |
