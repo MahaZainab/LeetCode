@@ -31,6 +31,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/MahaZainab/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0367-valid-perfect-square](https://github.com/MahaZainab/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/MahaZainab/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -140,6 +141,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MahaZainab/LeetCode/tree/master/0002-add-two-numbers) |
+| [0367-valid-perfect-square](https://github.com/MahaZainab/LeetCode/tree/master/0367-valid-perfect-square) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/MahaZainab/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Sorting
 |  |
