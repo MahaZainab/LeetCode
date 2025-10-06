@@ -20,6 +20,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/MahaZainab/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0682-baseball-game](https://github.com/MahaZainab/LeetCode/tree/master/0682-baseball-game) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/MahaZainab/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
@@ -182,4 +183,8 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/MahaZainab/LeetCode/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
