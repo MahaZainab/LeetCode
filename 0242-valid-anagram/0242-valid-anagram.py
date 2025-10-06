@@ -3,22 +3,40 @@ class Solution:
         if len(s) != len(t):
             return False
         mappair={}
-        for i in range(len(s)):
-            if s[i] in mappair:
-                mappair[s[i]] +=1
+        for c in s:
+            if c in mappair:
+                mappair[c] += 1
             else:
-                mappair[s[i]]=1
-        for i in range(len(t)):
-            if t[i] in mappair:
-                mappair[t[i]] -=1
-                if mappair[t[i]]<0:
+                mappair[c] = 1
+        for c in t:
+            if c in mappair:
+                mappair[c] -= 1
+                if mappair[c]<0:
                     return False
             else:
-                return False
+                False
         for val in mappair.values():
-            if val!=0:
+            if val !=0:
                 return False
         return True
+
+        # mappair={}
+        # for i in range(len(s)):
+        #     if s[i] in mappair:
+        #         mappair[s[i]] +=1
+        #     else:
+        #         mappair[s[i]]=1
+        # for i in range(len(t)):
+        #     if t[i] in mappair:
+        #         mappair[t[i]] -=1
+        #         if mappair[t[i]]<0:
+        #             return False
+        #     else:
+        #         return False
+        # for val in mappair.values():
+        #     if val!=0:
+        #         return False
+        # return True
 
         # dicts={}
         # dictt={}
