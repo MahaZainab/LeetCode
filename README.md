@@ -18,6 +18,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MahaZainab/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0682-baseball-game](https://github.com/MahaZainab/LeetCode/tree/master/0682-baseball-game) |
@@ -44,6 +45,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/MahaZainab/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/MahaZainab/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MahaZainab/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/MahaZainab/LeetCode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/MahaZainab/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -70,6 +72,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/MahaZainab/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -151,6 +154,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/MahaZainab/LeetCode/tree/master/0242-valid-anagram) |
 ## Simulation
@@ -174,4 +178,8 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MahaZainab/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
