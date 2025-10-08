@@ -22,6 +22,7 @@
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/MahaZainab/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0283-move-zeroes](https://github.com/MahaZainab/LeetCode/tree/master/0283-move-zeroes) |
 | [0682-baseball-game](https://github.com/MahaZainab/LeetCode/tree/master/0682-baseball-game) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/MahaZainab/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
@@ -95,6 +96,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/MahaZainab/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/MahaZainab/LeetCode/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
