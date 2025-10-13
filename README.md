@@ -15,6 +15,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/MahaZainab/LeetCode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/MahaZainab/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/MahaZainab/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0033-search-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MahaZainab/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -58,6 +59,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MahaZainab/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/MahaZainab/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/MahaZainab/LeetCode/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/MahaZainab/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/MahaZainab/LeetCode/tree/master/0242-valid-anagram) |
@@ -190,4 +192,8 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/MahaZainab/LeetCode/tree/master/0238-product-of-array-except-self) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/MahaZainab/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
