@@ -178,6 +178,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MahaZainab/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MahaZainab/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -186,6 +187,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MahaZainab/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MahaZainab/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Counting
 |  |
 | ------- |
@@ -198,4 +200,12 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/MahaZainab/LeetCode/tree/master/0014-longest-common-prefix) |
+## Depth-First Search
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MahaZainab/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MahaZainab/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
