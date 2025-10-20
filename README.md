@@ -24,6 +24,7 @@
 | [0238-product-of-array-except-self](https://github.com/MahaZainab/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/MahaZainab/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/MahaZainab/LeetCode/tree/master/0283-move-zeroes) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MahaZainab/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0682-baseball-game](https://github.com/MahaZainab/LeetCode/tree/master/0682-baseball-game) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/MahaZainab/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
@@ -35,6 +36,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/MahaZainab/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MahaZainab/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MahaZainab/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0367-valid-perfect-square](https://github.com/MahaZainab/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/MahaZainab/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/MahaZainab/LeetCode/tree/master/0792-binary-search) |
@@ -52,6 +54,7 @@
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/MahaZainab/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/MahaZainab/LeetCode/tree/master/0290-word-pattern) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MahaZainab/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/MahaZainab/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/MahaZainab/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -102,6 +105,7 @@
 | [0143-reorder-list](https://github.com/MahaZainab/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/MahaZainab/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/MahaZainab/LeetCode/tree/master/0283-move-zeroes) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MahaZainab/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/MahaZainab/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/MahaZainab/LeetCode/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/MahaZainab/LeetCode/tree/master/0874-backspace-string-compare) |
@@ -165,6 +169,7 @@
 | [0169-majority-element](https://github.com/MahaZainab/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MahaZainab/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/MahaZainab/LeetCode/tree/master/0242-valid-anagram) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MahaZainab/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Simulation
 |  |
 | ------- |
