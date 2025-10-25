@@ -1,6 +1,6 @@
 # LeetCode
 
-<!---LeetCode Topics Start-->
+<!---LeetCode Topics -->
 # LeetCode Topics
 ## Greedy search
 |  |
