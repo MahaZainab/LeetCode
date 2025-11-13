@@ -2,7 +2,7 @@
 
 <!---LeetCode tTopics -->
 # LeetCode Topics
-## Greedy search Algorithms
+## Greedy search Algorithms q
 |  |
 | ------- |
 | [2509-minimize-xor](https://github.com/MahaZainab/LeetCode/tree/master/2509-minimize-xor) |
