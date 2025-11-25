@@ -1,13 +1,12 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        mappair={}
+        numpair={}
         count=len(nums)//2
         for num in nums:
-            if num in mappair:
-                mappair[num] +=1
+            if num in numpair:
+                numpair[num]+=1
             else:
-                mappair[num] = 1
-            if mappair[num]>count:
+                numpair[num]=1
+            if numpair[num]>count:
                 return num
-
         
