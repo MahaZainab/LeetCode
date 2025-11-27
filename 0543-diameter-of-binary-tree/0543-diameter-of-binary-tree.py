@@ -1,16 +1,13 @@
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-        self.diameter = 0
-
+        self.diameter=0
         def height(node):
             if not node:
                 return 0
-            lh = height(node.left)
-            rh = height(node.right)
-            # update diameter using edge count
-            self.diameter = max(self.diameter, lh + rh)
-            return 1 + max(lh, rh)
-
+            lh=height(node.left)
+            rh=height(node.right)
+            self.diameter=max(self.diameter, lh+rh)
+            return 1+ max(lh,rh)
         height(root)
         return self.diameter
 
