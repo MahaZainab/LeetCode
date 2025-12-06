@@ -1,14 +1,24 @@
 class Solution:
     def fib(self, n: int) -> int:
+        # This is tabulation of the DP
+        if n==0 or n==1:
+            return n
         dp=[0]*(n+1)
-        def helper(n, dp)->int:
-            if n==0 or n==1:
-                return n
-            if dp[n] !=0:
-                return dp[n]
-            dp[n]=helper(n-1, dp) + helper(n-2, dp)
-            return dp[n]
-        return helper(n, dp)
+        dp[0]=0
+        dp[1]=1
+        for i in range(2, n+1):
+            dp[i]=dp[i-1]+dp[i-2]
+        return dp[n]
+
+        # dp=[0]*(n+1)
+        # def helper(n, dp)->int:
+        #     if n==0 or n==1:
+        #         return n
+        #     if dp[n] !=0:
+        #         return dp[n]
+        #     dp[n]=helper(n-1, dp) + helper(n-2, dp)
+        #     return dp[n]
+        # return helper(n, dp)
 
 
         # if n<=1:
